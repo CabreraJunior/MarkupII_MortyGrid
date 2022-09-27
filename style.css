@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background: rgb(21, 21, 39);
+    min-height: 100vh;
+    min-width: 150vh;
+    display: flex;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.primary{
+    margin: 0 auto;
+    min-width: 90%;
+    max-width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.columns{
+    min-width: 98%;
+    display: flex;
+	align-items: stretch;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.cols{
+    min-width: 32%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rows{
+    background-color: rgb(59, 62, 74);
+    min-height: 45%;
+    min-width: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 4%;
+}
+
+.morty-img{
+    border-radius: 10px;
+    min-width: 40%;
+    /*
+    background-image: url("sadmorty.jpeg");
+    background-size: cover;
+    */
+}
+
+img{
+    border-radius: 10px 0 0 10px;
+    object-fit: cover;
+    width:100%;
+    height:100%;
+}
+
+.chapter-info{
+    border-radius: 0 10px 10px 0;
+    background-color: rgb(66, 68, 76);
+    min-width: 60%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-left: 2%;
+}
+
+h3, span{
+    color: white;
+}
+
+.status{
+    transform: translateX(7.5%);
+    color: red;
+}
+
+.alive{
+    color: rgb(9, 202, 9);
+}
+
+.cursive{
+    font-size: 11px;
+    color: gray;
+    font-weight: bold;
+}
